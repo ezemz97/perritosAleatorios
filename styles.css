@@ -1,5 +1,5 @@
 /*---------CSS GENERAL-------------*/
-*{
+* {
     font-family: "Fredoka", sans-serif;
 }
 /*---------------BODY-----------------*/
@@ -10,18 +10,19 @@ body {
     height: 100%;
 }
 
-header{
-background-color:#A66E4F;
-width: 100%;
-display: flex;
-align-items: center;
-justify-content: center;
+header {
+    background-color: #a66e4f;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-header img{
-    height: 150px;
+header img {
+    height: 90px;
     width: auto;
     margin-bottom: 10px;
+    padding-left: 20px;
     align-items: center;
 }
 body {
@@ -38,10 +39,9 @@ main {
 
 h1 {
     font-size: 3em;
-    color:#FFF8F0 ;
+    color: #fff8f0;
     margin-left: 25px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-
 }
 
 #contenido {
@@ -55,21 +55,21 @@ h1 {
     padding-top: 32px;
     padding-bottom: 32px;
 }
-#contenido button{
-background-color:#FF6F3C ;
-color: #FFF8F0;
-border-radius: 10px;
-font-size: 2em;
-padding: 10px 24px;
-border: none;
-box-shadow:0 5px 6px rgba(0,0,0,0.2);
-transition: background-color 0.3s ease, transform 0.2s ease;
-cursor: pointer;
+#contenido button {
+    background-color: #ff6f3c;
+    color: #fff8f0;
+    border-radius: 10px;
+    font-size: 2em;
+    padding: 10px 24px;
+    border: none;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
 }
-#contenido button:hover{
-background-color: #FFD97D;  
-  transform: scale(1.05); 
-box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+#contenido button:hover {
+    background-color: #ffd97d;
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
 }
 #imagenes {
     display: flex;
@@ -101,19 +101,18 @@ box-shadow: 0 6px 8px rgba(0,0,0,0.15);
 }
 /*----------------FOOTER------------------*/
 footer {
-background-color:#A66E4F;
-width: 100%;
-padding-bottom: 25px;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-color:#FFF8F0; /*color del texto*/
-font-size: 1em;
+    background-color: #a66e4f;
+    width: 100%;
+    padding-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff8f0; /*color del texto*/
+    font-size: 1em;
 }
-footer img{
-    height: 150px;
+footer img {
+    height: 60px;
 }
-footer p{
+footer p {
     margin: 5px;
 }
